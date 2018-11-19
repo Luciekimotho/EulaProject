@@ -14,6 +14,7 @@ namespace Primenumbers
         static void Main(string[] args)
         {
             int max = 10;
+    
             bool[] is_prime = MakeSieve(max);
             for(int i = 2; i < max; i++)
                 if(is_prime[i])
@@ -22,7 +23,6 @@ namespace Primenumbers
 
         static bool[] MakeSieve(int max)
         {
-
             //An array indicating whether numbers are prime
             bool[] is_prime = new bool[max + 1];
             for (int i = 2; i <= max; i++)
@@ -32,9 +32,10 @@ namespace Primenumbers
             //Cross out multiples
             for (int i = 2; i <= max; i++)
             {
+                //check if number is prime
                 if (is_prime[i])
                 {
-                    for (int j = i * 2; j <= max; j += i)
+                    for (int j=i*2; j <= max; j += i)
                         is_prime[j] = false;
                 }
             }
