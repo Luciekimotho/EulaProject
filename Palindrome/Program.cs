@@ -9,19 +9,31 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
-            Console.Write(reverseNumber(347));
+            int max = 0;
+            int i, j = 0;
+            //Console.Write(reverseNumber(347));
 
-            for (int i = 99;i >= 0; i--)
+            for (i = 999; i >= 100; i--)
             {
-                for (int j = 99; j >= 0; j--)
+                for (j = 999; j >= 100; j--)
                 {
-                    if( i*j == reverseNumber(i * j))
+                 
+                   if (i * j == reverseNumber(i * j) && (i*j > max))
                     {
-                       // Console.Write(i);
-                        //Console.Write(j);
+                        max = i * j;
+                        //Console.Write("\n");
+                        //Console.Write(i + " ");
+                        //Console.Write(j + " ");
                     }
+
+                   
                 }
             }
+            
+            Console.Write("\n");
+            Console.Write(max);
+            Console.Write("\n");
+
         }
 
         static int reverseNumber(int original)
@@ -32,7 +44,7 @@ namespace Palindrome
                 reverse = (reverse * 10) + original % 10;
                 original = original / 10;
             }
-            Console.Write(reverse);
+            //Console.Write(reverse);
             return reverse;
         }
     }
