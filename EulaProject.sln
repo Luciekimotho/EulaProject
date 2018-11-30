@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primenumbers", "Primenumber
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactors", "PrimeFactors\PrimeFactors.csproj", "{168CB8BA-569B-446C-A692-5CB9A82C62BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{D183AB36-74A3-4410-83F5-A04B2116DB5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome", "Palindrome\Palindrome.csproj", "{D183AB36-74A3-4410-83F5-A04B2116DB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{420D577A-08D0-4791-B2ED-DE665AB300EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D183AB36-74A3-4410-83F5-A04B2116DB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D183AB36-74A3-4410-83F5-A04B2116DB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D183AB36-74A3-4410-83F5-A04B2116DB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420D577A-08D0-4791-B2ED-DE665AB300EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420D577A-08D0-4791-B2ED-DE665AB300EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420D577A-08D0-4791-B2ED-DE665AB300EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420D577A-08D0-4791-B2ED-DE665AB300EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
